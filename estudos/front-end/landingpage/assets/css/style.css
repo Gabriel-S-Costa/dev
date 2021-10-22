@@ -1,0 +1,64 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+@font-face {
+   font-family: "Poppins";
+   src: url('../fonts/Poppins-Regular.ttf'),
+        url('../fonts/Poppins-Bold.ttf'),
+        url('../fonts/Poppins-Medium.ttf'); 
+}
+
+@font-face {
+   font-family: "Montserrat-regular";
+   src: url('../fonts/Montserrat-Regular.ttf');   
+}
+
+body {
+   font-family: "Poppins"!important;
+   color: #000;
+   background-color: #FFF;
+}
+
+.heading-title {
+   font-family: "Poppins";
+   font-weight: 500;
+   font-size: 52px;
+   line-height: 65px;
+   letter-spacing: -1px;
+   /* margin-bottom: 0; */
+}
+
+.subtitle {
+   text-align: center;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #000;
+}
+
+.item-vantagem {
+   display: flex;
+   align-items: center;
+   padding: 10px 20px;
+   text-align: center;
+   font-family: "Poppins";
+   font-size: 14px;
+   max-width: 12.1rem;
+   background-color: aliceblue;   
+}
+
+.bg-laranja {
+   background-color: #de8b1f!important;
+   border-color: #de8b1f!important;
+   color: #FFF!important;   
+}
+
+.bg-laranja:hover{
+   background-color: #9c6216!important;
+   border-color: #9c6216!important;
+   color: #FFF!important;
+   transition: .6s;
+}
