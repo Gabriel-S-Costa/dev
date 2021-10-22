@@ -1,0 +1,5 @@
+RewriteEngine on 
+
+RewriteRule ^modulo/?$ ./index.php
+RewriteRule ^modulo/([a-z0-9]+)$ ./index.php?modulo=$1 [QSA]
+
