@@ -1,0 +1,9 @@
+{
+    "name": "crud_poo/vagas",
+    "description": "Projeto realizado por mim seguindo o video do canal wdev no youtube",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
+}

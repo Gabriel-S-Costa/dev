@@ -1,0 +1,15 @@
+{
+    "name": "gabriel_costa/curso_composer",
+    "description": "curso sobre composer",
+    "minimum-stability": "stable", 
+    "require": {
+        "phpmailer/phpmailer": "^6.4",
+        "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }, 
+        "files": ["functions/helpers.php"]
+    }
+}
