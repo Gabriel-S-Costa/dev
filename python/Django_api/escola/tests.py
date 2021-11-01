@@ -24,3 +24,8 @@ class TestingStringMethods(unittest.TestCase):
     
     def test_false(self):
         self.assertFalse(False)
+    
+    def test_isEmpty(self):
+        print("test_isEmpty: Verify if the str is equal")
+        self.assertNotEqual('Banana', 'Banana')
+
