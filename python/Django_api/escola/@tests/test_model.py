@@ -21,6 +21,3 @@ class TestingStringMethods(unittest.TestCase):
     def test_upper(self):
         print("test_upper: Verify if the str is upper")
         self.assertEqual('foo'.upper(), 'FOO')
-    
-    def test_false(self):
-        self.assertFalse(False)
