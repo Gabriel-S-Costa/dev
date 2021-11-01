@@ -6,7 +6,7 @@ import unittest
 
 class TestModel(unittest.TestCase):
 
-    def setUp(self)
+    def setUp(self):
         return super().setUp()
 
     def tearDown(self):
